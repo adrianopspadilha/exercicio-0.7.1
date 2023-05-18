@@ -1,0 +1,28 @@
+
+html, body {
+    height: 100%
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 25px;
+    border: none;
+    align-items: center;
+}
+.FormatDivMaster {
+    width: 500px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 30px;
+}
+.FormatDivSlave {
+    display:flex;
+    justify-content: space-between;
+}
+
